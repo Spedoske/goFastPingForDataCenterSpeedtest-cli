@@ -30,7 +30,7 @@ func checkErr(err error) {
 }
 
 func main() {
-	_ping(int(ICMP), "SELECT ip,tcping_port,enable_tcping_test FROM data_centers Where country='日本' and idc='Vultr'", 900, 1)
+	//_ping(int(ICMP), "SELECT ip,tcping_port,enable_tcping_test FROM data_centers Where country='日本' and idc='Vultr'", 900, 1)
 }
 
 //export ping
